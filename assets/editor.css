@@ -1,0 +1,66 @@
+.block-editor-block-list__block.upcc-has-css-columns {
+	column-count: var(--upcc-column-count, auto);
+	column-fill: var(--upcc-column-fill, balance);
+	column-gap: var(--upcc-column-gap, normal);
+	column-height: var(--upcc-column-height, auto);
+	column-rule: var(--upcc-column-rule, medium none currentcolor);
+	column-rule-color: var(--upcc-column-rule-color, currentcolor);
+	column-rule-style: var(--upcc-column-rule-style, none);
+	column-rule-visibility-items: var(--upcc-column-rule-visibility-items, normal);
+	column-rule-width: var(--upcc-column-rule-width, medium);
+	column-width: var(--upcc-column-width, auto);
+	column-wrap: var(--upcc-column-wrap, auto);
+}
+
+.block-editor-block-list__block.upcc-has-block-padding {
+	padding: var(--upcc-block-padding);
+}
+
+.block-editor-block-list__block.upcc-has-block-margin {
+	margin: var(--upcc-block-margin);
+}
+
+.block-editor-block-list__block.upcc-has-css-column-span {
+	column-span: var(--upcc-column-span, none);
+}
+
+.block-editor-block-list__block.upcc-has-css-break-control {
+	break-before: var(--upcc-break-before, auto);
+	break-after: var(--upcc-break-after, auto);
+	break-inside: var(--upcc-break-inside, auto);
+}
+
+.upcc-reset-control {
+	margin-block-start: 1.5rem;
+}
+
+/* Some editor versions wrap the actual core element in the block wrapper. */
+.block-editor-block-list__block[data-type="core/paragraph"].upcc-has-css-columns > .wp-block-paragraph,
+.block-editor-block-list__block[data-type="core/list"].upcc-has-css-columns > .wp-block-list,
+.block-editor-block-list__block[data-type="core/group"].upcc-has-css-columns > .wp-block-group {
+	column-count: var(--upcc-column-count, auto);
+	column-fill: var(--upcc-column-fill, balance);
+	column-gap: var(--upcc-column-gap, normal);
+	column-height: var(--upcc-column-height, auto);
+	column-rule: var(--upcc-column-rule, medium none currentcolor);
+	column-rule-color: var(--upcc-column-rule-color, currentcolor);
+	column-rule-style: var(--upcc-column-rule-style, none);
+	column-rule-visibility-items: var(--upcc-column-rule-visibility-items, normal);
+	column-rule-width: var(--upcc-column-rule-width, medium);
+	column-width: var(--upcc-column-width, auto);
+	column-wrap: var(--upcc-column-wrap, auto);
+}
+
+.block-editor-block-list__block[data-type="core/paragraph"].upcc-has-css-column-span > .wp-block-paragraph,
+.block-editor-block-list__block[data-type="core/list"].upcc-has-css-column-span > .wp-block-list,
+.block-editor-block-list__block[data-type="core/group"].upcc-has-css-column-span > .wp-block-group {
+	column-span: var(--upcc-column-span, none);
+}
+
+.block-editor-block-list__block[data-type="core/paragraph"].upcc-has-css-break-control > .wp-block-paragraph,
+.block-editor-block-list__block[data-type="core/list"].upcc-has-css-break-control > .wp-block-list,
+.block-editor-block-list__block[data-type="core/group"].upcc-has-css-break-control > .wp-block-group {
+	break-before: var(--upcc-break-before, auto);
+	break-after: var(--upcc-break-after, auto);
+	break-inside: var(--upcc-break-inside, auto);
+}

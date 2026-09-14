@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title description">
+	<title id="title">Uplink CSS Columns</title>
+	<desc id="description">Editorial text reflows from three columns to two columns to one column.</desc>
+	<style>
+		.layout {
+			transform-origin: 128px 105px;
+			animation-duration: 9s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+		.layout-three { animation-name: show-three; }
+		.layout-two { animation-name: show-two; }
+		.layout-one { animation-name: show-one; }
+
+		@keyframes show-three {
+			0%, 27% { opacity: 1; transform: scale(1); }
+			33%, 93% { opacity: 0; transform: scale(0.985); }
+			100% { opacity: 1; transform: scale(1); }
+		}
+
+		@keyframes show-two {
+			0%, 27% { opacity: 0; transform: scale(0.985); }
+			33%, 60% { opacity: 1; transform: scale(1); }
+			66%, 100% { opacity: 0; transform: scale(0.985); }
+		}
+
+		@keyframes show-one {
+			0%, 60% { opacity: 0; transform: scale(0.985); }
+			66%, 93% { opacity: 1; transform: scale(1); }
+			100% { opacity: 0; transform: scale(0.985); }
+		}
+
+		@media (prefers-reduced-motion: reduce) {
+			.layout { animation: none; opacity: 0; transform: none; }
+			.layout-three { opacity: 1; }
+		}
+	</style>
+
+	<rect width="256" height="256" fill="#fff"/>
+
+	<g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round">
+		<g class="layout layout-three">
+			<g stroke="#9a9a9a" stroke-width="3">
+				<path d="M89 31V177"/>
+				<path d="M167 31V177"/>
+			</g>
+			<path d="M22 40H78 M22 51H70 M22 62H80 M22 73H74 M22 84H79 M22 95H62 M22 106H78 M22 117H68 M22 128H80 M22 139H72 M22 150H77 M22 161H58"/>
+			<path d="M100 40H156 M100 51H146 M100 62H151 M100 73H158 M100 84H153 M100 95H157 M100 106H142 M100 117H159 M100 128H149 M100 139H157 M100 150H151 M100 161H136"/>
+			<path d="M178 40H234 M178 51H224 M178 62H230 M178 73H222 M178 84H234 M178 95H216 M178 106H228 M178 117H220 M178 128H234 M178 139H229 M178 150H233 M178 161H210"/>
+		</g>
+
+		<g class="layout layout-two" opacity="0">
+			<path d="M128 31V177" stroke="#9a9a9a" stroke-width="3"/>
+			<path d="M24 40H112 M24 52H101 M24 64H115 M24 76H106 M24 88H113 M24 100H92 M24 112H116 M24 124H104 M24 136H114 M24 148H108 M24 160H86"/>
+			<path d="M142 40H232 M142 52H218 M142 64H228 M142 76H211 M142 88H232 M142 100H215 M142 112H226 M142 124H220 M142 136H232 M142 148H224 M142 160H204"/>
+		</g>
+
+		<g class="layout layout-one" opacity="0">
+			<path d="M24 40H232 M24 54H210 M24 68H226 M24 82H196 M24 96H232 M24 110H216 M24 124H228 M24 138H202 M24 152H232 M24 166H174"/>
+		</g>
+	</g>
+
+	<!-- Uplink Press mark, scaled from the supplied master artwork. -->
+	<g transform="translate(196 201) scale(0.0405)">
+		<path d="M809.78 205.91h163.72c82.88 0 150.69 67.84 150.69 150.76s-67.84 150.76-150.69 150.76H777.75v205.91h195.78c196.07 0 356.47-160.48 356.47-356.68S1169.51 0 973.53 0H699.7c36.8 68.57 73.42 137.26 110.08 205.91Z" fill="#003362"/>
+		<path d="M507.19 349.08v364.24c0 82.86-67.78 150.76-150.69 150.76s-150.69-67.84-150.69-150.76V356.64H0v356.71C0 909.49 160.4 1070 356.5 1070S713 909.52 713 713.35V348.93c12.8 4.39 26.27 9.52 40.64 15.25 27.75 11.09 58.99-11.99 44.25-43.13-55.1-103.09-107.69-202.01-163.2-305.25-11.32-21.04-38.05-21.04-49.34-.03-55.5 103.29-108.1 202.19-163.2 305.28-14.78 31.14 16.49 54.22 44.22 43.13 14.49-5.79 28.01-10.83 40.81-15.11Z" fill="#0071cc"/>
+	</g>
+</svg>
