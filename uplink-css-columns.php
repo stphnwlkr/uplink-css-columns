@@ -3,7 +3,7 @@
  * Plugin Name:       Uplink CSS Columns
  * Plugin URI:        https://uplink.press/code/uplink-css-columns
  * Description:       Adds CSS Multi-column and fragmentation controls to core blocks, including column spanning for any block inside a Group.
- * Version:           1.1.2
+ * Version:           1.1.3
  * Requires at least: 7.0
  * Requires PHP:      8.3
  * Author:            Steve Walker
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const VERSION = '1.1.2';
+const VERSION = '1.1.3';
 
 /**
  * Return all attributes used by the full column controls.
