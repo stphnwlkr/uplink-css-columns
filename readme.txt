@@ -4,7 +4,7 @@ Tags: blocks, columns, gutenberg, layout, typography
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Add CSS Multi-column layout, rules, spanning, and fragmentation controls to core
 
 Uplink CSS Columns adds an accessible inspector panel, an editor preview, and
 server-rendered front-end styles for CSS Multi-column layouts. It has been tested
-with WordPress 7.1.
+with WordPress 7.1.1 RC1.
 
 Group, Paragraph, and List blocks receive the complete set of controls. Any
 other registered block nested inside a Group receives the Span parent columns
@@ -80,6 +80,10 @@ support before using them in production.
 3. The CSS Columns inspector controls for layout, fragmentation, column rules, experimental properties, and parent-column spanning.
 
 == Changelog ==
+
+= 1.1.3 =
+* Refreshed the WordPress.org icon and added matching Uplink directory banners.
+* Confirmed compatibility with WordPress 7.1.1 RC1. No functional code changes were required.
 
 = 1.1.2 =
 * Updated the minimum required WordPress version to 7.0 and confirmed compatibility through WordPress 7.1. No functional code changes.

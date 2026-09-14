@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1544 500" role="img" aria-labelledby="title desc">
+  <title id="title">Uplink CSS Columns banner</title>
+  <desc id="desc">Uplink CSS Columns branding with a multi-column layout preview.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset=".58" stop-color="#03245a"/>
+      <stop offset="1" stop-color="#0068ca"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="blueRow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8f4ff"/>
+      <stop offset="1" stop-color="#d8ebff"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#1c8cff" opacity=".55"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#001433" flood-opacity=".6"/>
+    </filter>
+    <clipPath id="panelClip"><rect x="824" y="54" width="670" height="392" rx="25"/></clipPath>
+  </defs>
+
+  <rect width="1544" height="500" fill="url(#background)"/>
+  <rect x="1080" width="464" height="220" fill="url(#dots)" opacity=".65"/>
+  <g fill="none" stroke="#087fea" stroke-width="1.2" opacity=".42">
+    <path d="M0 430C180 350 310 485 500 405S820 325 1010 415s360 35 534-45"/>
+    <path d="M0 449C190 369 320 500 515 426s315-88 500-4 350 49 529-29"/>
+    <path d="M0 468C200 388 330 515 530 447s310-95 490-8 345 61 524-13"/>
+    <path d="M0 487C210 407 340 530 545 468s305-102 480-12 340 73 519-2"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="42" y="48" width="160" height="160" rx="22" fill="#f8fbff" stroke="#3c95ff" stroke-width="2"/>
+  </g>
+  <g transform="translate(64 60) scale(.0865)">
+    <path d="M809.78,205.91h163.72c82.88,0,150.69,67.84,150.69,150.76s-67.84,150.76-150.69,150.76h-195.75v205.91h195.78c196.07,0,356.47-160.48,356.47-356.68S1169.51,0,973.53,0h-273.83c36.8,68.57,73.42,137.26,110.08,205.91Z" fill="#003362"/>
+    <path d="M507.19,349.08v364.24c0,82.86-67.78,150.76-150.69,150.76s-150.69-67.84-150.69-150.76v-356.68H0v356.71c0,196.14,160.4,356.65,356.5,356.65s356.5-160.48,356.5-356.65v-364.42c12.8,4.39,26.27,9.52,40.64,15.25,27.75,11.09,58.99-11.99,44.25-43.13-55.1-103.09-107.69-202.01-163.2-305.25-11.32-21.04-38.05-21.04-49.34-.03-55.5,103.29-108.1,202.19-163.2,305.28-14.78,31.14,16.49,54.22,44.22,43.13,14.49-5.79,28.01-10.83,40.81-15.11Z" fill="#0071cc"/>
+  </g>
+  <rect x="67" y="160" width="110" height="4" rx="2" fill="#0071cc"/>
+  <g fill="#082f59" font-family="Arial, Helvetica, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="122" y="182" font-size="15">CSS</text>
+    <text x="122" y="199" font-size="14">COLUMNS</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="42" y="294" fill="#ffffff" font-size="68">UPLINK</text>
+    <text x="42" y="363" fill="#087fea" font-size="58">CSS COLUMNS</text>
+    <rect x="42" y="387" width="286" height="3" fill="#0b8cff"/>
+    <text x="42" y="429" fill="#ffffff" font-size="22">MULTI-COLUMN LAYOUT,</text>
+    <text x="337" y="429" fill="#168dff" font-size="22">BUILT IN.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="824" y="54" width="670" height="392" rx="25" fill="url(#panel)" stroke="#acd3ff" stroke-width="2"/>
+  </g>
+  <g clip-path="url(#panelClip)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="824" y="54" width="670" height="62" fill="#ffffff"/>
+    <text x="860" y="93" fill="#1d2939" font-size="22" font-weight="700">CSS Columns</text>
+    <circle cx="1452" cy="85" r="15" fill="#e4f1ff"/>
+    <path d="M1445 85h14M1452 78v14" stroke="#087fea" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="848" y1="116" x2="1470" y2="116" stroke="#d7e3ef"/>
+
+    <rect x="850" y="136" width="284" height="52" rx="10" fill="url(#blueRow)" stroke="#66adff"/>
+    <text x="872" y="168" fill="#17324f" font-size="17" font-weight="700">Enable columns</text>
+    <rect x="1063" y="150" width="48" height="25" rx="13" fill="#087fea"/>
+    <circle cx="1098" cy="162.5" r="9.5" fill="#fff"/>
+
+    <rect x="850" y="202" width="136" height="62" rx="10" fill="#ffffff" stroke="#cfdae6"/>
+    <text x="868" y="224" fill="#667085" font-size="12" font-weight="700">COLUMNS</text>
+    <text x="868" y="252" fill="#182230" font-size="20" font-weight="700">3</text>
+    <rect x="998" y="202" width="136" height="62" rx="10" fill="#ffffff" stroke="#cfdae6"/>
+    <text x="1016" y="224" fill="#667085" font-size="12" font-weight="700">GAP</text>
+    <text x="1016" y="252" fill="#182230" font-size="20" font-weight="700">2rem</text>
+
+    <rect x="1156" y="136" width="314" height="272" rx="14" fill="#ffffff" stroke="#b9d5f1"/>
+    <text x="1178" y="168" fill="#17324f" font-size="16" font-weight="700">A heading can span every column</text>
+    <rect x="1178" y="180" width="270" height="3" rx="1.5" fill="#087fea"/>
+    <g stroke="#25384c" stroke-width="4" stroke-linecap="round">
+      <path d="M1178 209h72m-72 12h64m-64 12h70m-70 12h58m-58 12h69m-69 12h62m-62 12h70m-70 12h55m-55 12h67m-67 12h61m-61 12h69"/>
+      <path d="M1276 209h72m-72 12h61m-61 12h70m-70 12h64m-64 12h72m-72 12h58m-58 12h69m-69 12h63m-63 12h72m-72 12h60m-60 12h68"/>
+      <path d="M1374 209h72m-72 12h62m-62 12h70m-70 12h57m-57 12h72m-72 12h64m-64 12h69m-69 12h59m-59 12h72m-72 12h63m-63 12h68"/>
+    </g>
+
+    <rect x="850" y="282" width="284" height="52" rx="10" fill="#ffffff" stroke="#cfdae6"/>
+    <text x="872" y="305" fill="#667085" font-size="12" font-weight="700">COLUMN RULE</text>
+    <line x1="872" y1="320" x2="956" y2="320" stroke="#087fea" stroke-width="3"/>
+    <text x="970" y="325" fill="#182230" font-size="16">1px solid blue</text>
+
+    <rect x="850" y="348" width="284" height="60" rx="10" fill="#ffffff" stroke="#cfdae6"/>
+    <text x="872" y="372" fill="#667085" font-size="12" font-weight="700">ITEM BEHAVIOR</text>
+    <text x="872" y="396" fill="#182230" font-size="16">Avoid breaks inside</text>
+  </g>
+</svg>
